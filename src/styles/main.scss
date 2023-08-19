@@ -1,5 +1,80 @@
-$bgColor: rgb(231, 18, 167);
+@use 'variaveis';
+@use 'hero';
+@use 'sinapse';
+@use 'producao';
 
-body{
-    background-color:$bgColor ;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1650px;
+}
+
+body {
+    background-color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Noto Sans HK', sans-serif;
+    padding: 5.6vw;
+    
+    
+}
+ 
+h1 {
+    margin-top: 8px;
+    margin-bottom: 24px;
+    font-family: "Noto Sans HK",sans-serif;
+    font-size: 44px;
+    line-height: 60px;
+    font-weight: 700;
+    color: #fff;
+}
+p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.home {
+    margin-top: 20px;
+    margin-bottom: 80px;
+    color: #777;
+    font-size: 11px;
+    line-height: 16px;
+   
+}
+
+.corpo{
+    max-width: 1280px;
+    margin-left: 120px;
+    margin-top: 0px;
+}
+
+.cinema{
+    position: relative;
+    z-index: 3;
+    display: inline-block;
+    height: 24px;
+    padding: 3px 12px;
+    border-radius: 12px;
+    background-color: variaveis.$corButtonCinema;
+    font-family: 'Noto Sans HK', sans-serif;
+    color: #fff;
+    font-size: 11px;
+    line-height: 16px;
+    font-weight: 700;
+    margin-right: 3px;
+    margin-bottom: 3px;
+
+}
+.post-info{
+    display: flex;
+    font-size: 11px;
+    line-height: 16px;
+    color: #fff;
+    
+}
+.text-medio {
+    font-size: 1.15rem;
+    margin-bottom: .75rem;
+    line-height: 1.5;
 }
