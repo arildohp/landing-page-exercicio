@@ -2,20 +2,23 @@
 @use 'hero';
 @use 'sinapse';
 @use 'producao';
+@use 'rodape';
+@use 'header';
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    max-width: 1650px;
+    max-width: 100%;
 }
 
 body {
-    background-color: #fff;
+    background-color: #a31414;
     font-size: 14px;
     line-height: 24px;
     font-family: 'Noto Sans HK', sans-serif;
-    padding: 5.6vw;
+    
+    
     
     
 }
