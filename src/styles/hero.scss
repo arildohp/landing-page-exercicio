@@ -1,9 +1,10 @@
 
 .hero{
-    
-    min-height: 80vh;
-    background-image: url(../styles/images/hero.jpg);
+    padding: 5vw;
     background-size: cover;
+    min-height: 80vh;
+    background-image: url(./images/hero.jpeg);
+    
     
     
 
@@ -11,7 +12,12 @@
         width: 100%;
         max-width: 100%;       
         margin-left: 350px;
-        margin-top: 900px;
+        
+        &__text{
+           margin-top: 500px;
+        }
 
     }
 }
+
+

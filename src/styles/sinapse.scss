@@ -1,10 +1,15 @@
 .sinapse {
-    margin-left: 105px;
+    margin-left:105px ;
     display: grid;
     grid-template-columns:  2fr 1fr;
     align-items: center;
     margin-bottom: 0px;
     
+    @media (max-width: 768px){
+        margin-left: 105px;
+        display: grid;
+        grid-template-columns:   1fr;
+    }
 }
 div{
     padding:  0 2vw;
@@ -15,8 +20,10 @@ div{
     text-decoration: none;
     margin-top: 0px;
 
+   
+
     &__categorias{
-        
+      
 
         &__lista{
             
@@ -40,10 +47,10 @@ div{
                 font-weight: 600;
                 cursor: pointer;
 
-               
-
-                &__opcoes{
-                    
+                @media (max-width: 768px){
+                    max-width: 100%;
+                    align-items: center;
+                    margin-left: 40px;
                 }               
             }
         }
