@@ -5,12 +5,12 @@
 @use 'rodape';
 @use 'header';
 
-*main{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     max-width: 100%;
-    align-items: center;
+   
 
     @media screen and (max-width: 768px){
         max-width: 100%;
