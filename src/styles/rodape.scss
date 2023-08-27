@@ -9,3 +9,15 @@
 .text-rodape{
     margin: 0;
 }
+
+@media screen and (max-width: 768px) {
+    .rodape{
+      display: block;
+     width: 50%;
+     
+     }
+     img{
+        max-width: 50%;
+        align-items: center;
+     }
+   }

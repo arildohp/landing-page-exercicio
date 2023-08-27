@@ -3,7 +3,7 @@
     padding: 5vw;
     background-size: cover;
     min-height: 80vh;
-    background-image: url(../images/hero.jpeg);
+    background-image: url("../images/hero.jpeg");
     
     
     
@@ -21,3 +21,11 @@
 }
 
 
+@media screen and (max-width: 768px) {
+    .sinapse{
+      margin: 10px;
+     width: 100%;
+     
+     }
+    
+   }

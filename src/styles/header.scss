@@ -1,13 +1,29 @@
 @use 'variaveis';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 90%;}
+
 .header{
-    position: sticky;
+    display: flex;
     top: 0;
     left: 0;
     background-color: #fff;
+    margin: auto;
     
     @media screen and (max-width: 768px) {
-        display: flex;
-        max-width: 768px;
+       .header__container{      
+       display: flow-root;
+       justify-items: end;
+        }
+
+        .header__logo{
+            max-width: 50%;
+          }
+        
+        
       }
   
     
@@ -35,11 +51,36 @@
           
         &__item{
            margin: 0px;
+           
           
             
         }
     }
 }
+
+.material-icons{
+    display: none;}
+
+
+@media screen and (max-width: 768px) {
+  #burguer{
+     background-color: #fff;
+     color: black;
+     display: block;
+     text-align: left;
+     padding: 10px;
+     cursor: pointer;
+     max-width: 15%;
+     
+   }
+#burguer:hover{
+    background-color: black;
+    color: #fff;
+   }   
+} 
+
+
+
 
 .button{
     color: variaveis.$corTextoHeader;

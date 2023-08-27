@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>landing page</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link rel="stylesheet" href="dist/css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,9 +17,11 @@
     <header class="header">
        <div class="header__container">
         <h1 >
-            <img class="header__logo" src="./src/images/logo/logo.svg" alt="">
+            <img class="header__logo" src="./src/images/logo/logo.svg" alt="logo">
         </h1>
-        <ul class="header__links">
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</I>
+        
+        <ul class="header__links" id="itens">
             <li class="header__links__item">
                 <a class="button " href="https://nerdclub.com.br/blog/categoria/cinema/">Cinema</a>
             </li>
@@ -145,9 +149,19 @@
 <footer class="rodape">
     <div class="rodape__container">
         <img src="./src/images/logo.png" alt="logo">
-        <p class="text-rodape">© 2023. TODOS DIREITOS RESERVADOS - NERD CLUB</p>
+        <p class="text-rodape">© 2023. TODO DIREITOS RESERVADOS - NERD CLUB</p>
         <a href="https://marke.com.br/" target="_blank">Site Otimizado por Marke</a>
     </div>
 </footer>
+
+<script>
+    function clickMenu(){
+        if (itens.style.display == 'block'){
+            itens.style.display ='none'
+        } else {
+            itens.style.display = 'block'
+        }
+    }    
+    </script>
 </body>
 </html>

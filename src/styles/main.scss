@@ -9,7 +9,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    max-width: 100%;
+    max-width: 90%;
    
 
     @media screen and (max-width: 768px){
@@ -23,7 +23,7 @@
 }
 
 body {
-    background-color: #ffff;
+    background-color: #fff;
     font-size: 14px;
     line-height: 24px;
     font-family: 'Noto Sans HK', sans-serif;
@@ -44,7 +44,7 @@ h1 {
 
     @media (max-width: 767.98px)
 {
-    font-size: 30+px;
+    font-size: 30px;
 }
 }
 p{
