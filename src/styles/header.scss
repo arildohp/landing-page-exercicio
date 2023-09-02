@@ -4,14 +4,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    max-width: 90%;}
+    max-width: 100%;}
 
 .header{
     display: flex;
     top: 0;
     left: 0;
     background-color: #fff;
-    margin: auto;
+    justify-content: space-between;
+    
     
     @media screen and (max-width: 768px) {
        .header__container{      
@@ -25,12 +26,16 @@
         
         
       }
+      .menu{
+        align-items: center;
+        display: flex;
+      }
   
     
     &__container{
         padding: 8px 36px;
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-end;
         align-items: center;
 
         @media screen and (max-width: 768px) {
@@ -41,13 +46,14 @@
     }
 
     &__logo{
-        max-width: 150px;
+        max-width: 200px;
         width: 100%;
+        margin-right: 50px;
     }
     &__links{
           display: flex;
           list-style: none;
-          margin-right: 400px;
+          
           
         &__item{
            margin: 0px;
@@ -57,6 +63,7 @@
         }
     }
 }
+
 
 .material-icons{
     display: none;}

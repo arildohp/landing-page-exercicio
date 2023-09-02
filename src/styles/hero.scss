@@ -11,13 +11,17 @@
     &__content {
         width: 100%;
         max-width: 100%;       
-        margin-left: 350px;
+        justify-content: space-around;
         
         &__text{
-           margin-top: 500px;
+           justify-content: flex-end;
+           
         }
 
     }
+}
+.menu{
+    display: flex;
 }
 
 
