@@ -1,4 +1,5 @@
 .rodape {
+    align-items: center;
     &__container{
         max-width: 100%;
         width: 100%;
@@ -13,11 +14,12 @@
 @media screen and (max-width: 768px) {
     .rodape{
       display: block;
-     width: 50%;
-     
+     width: 100%;
+     align-items: center;
+     margin-bottom: 20px;
      }
      img{
-        max-width: 50%;
-        align-items: center;
+        max-width: 30%;
+        
      }
    }

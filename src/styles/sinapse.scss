@@ -1,12 +1,12 @@
 .sinapse {
-    margin-left:105px ;
+    
     display: grid;
     grid-template-columns:  2fr 1fr;
     align-items: center;
     margin-bottom: 0px;
     
     @media (max-width: 768px){
-        margin-left: 105px;
+        margin-left: 105;
         display: grid;
         grid-template-columns:   1fr;
     }
@@ -14,19 +14,18 @@
 div{
     padding:  0 2vw;
 }
+.corpo{
+    max-width: 100%;
+    justify-items: flex-end;
+    margin-top: 0px;
+}
 
 .faq {
-    max-width: 100%;
-    text-decoration: none;
-    margin-top: 0px;
-
-   
-
     &__categorias{
       
 
         &__lista{
-            
+           
            
             &__opçoes{
                 position: relative;              
@@ -48,9 +47,13 @@ div{
                 cursor: pointer;
 
                 @media (max-width: 768px){
-                    max-width: 100%;
+                    max-width: 90%;
                     align-items: center;
-                    margin-left: 40px;
+                   
+
+                    .faq{
+                        margin: 0;
+                    }
                 }               
             }
         }

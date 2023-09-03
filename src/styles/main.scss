@@ -59,19 +59,14 @@ p{
     font-size: 11px;
     line-height: 16px;
 
-    @media (max-width: 400px)
+    @media (max-width: 768px)
  {
-    font-size: 34px;
+    font-size: 15px;
     max-width: 100%;
 }
    
 }
 
-.corpo{
-    max-width: 100%;
-    margin-left: 120px;
-    margin-top: 0px;
-}
 
 .cinema{
     position: relative;
