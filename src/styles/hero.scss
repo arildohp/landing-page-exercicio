@@ -2,8 +2,9 @@
 .hero{
     padding: 5vw;
     background-size: cover;
-    min-height: 80vh;
+    min-height: 115vh;
     background-image: url("../images/hero.jpeg");
+    
     
     
     
@@ -12,6 +13,9 @@
         width: 100%;
         max-width: 100%;       
         justify-content: space-around;
+        position: relative;
+        margin-top: 750px;
+
         
         &__text{
            justify-content: flex-end;
@@ -26,10 +30,15 @@
 
 
 @media screen and (max-width: 768px) {
+    
     .sinapse{
       margin: 10px;
      width: 100%;
-     
-     }
+    }
+    .hero{
+       max-height: 80%; 
+    }
+    
+   
     
    }

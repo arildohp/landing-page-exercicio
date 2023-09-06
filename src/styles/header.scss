@@ -12,6 +12,10 @@
     left: 0;
     background-color: #fff;
     justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+   
+   
     
     
     @media screen and (max-width: 768px) {
@@ -27,7 +31,7 @@
         
       }
       .menu{
-        align-items: center;
+        
         display: flex;
       }
   
@@ -53,6 +57,7 @@
     &__links{
           display: flex;
           list-style: none;
+          justify-items: center;
           
           
           
@@ -71,8 +76,16 @@
 
 
 @media screen and (max-width: 768px) {
+    .header{
+        align-items: center;
+    }
+    .header__logo{
+        position: relative;
+        align-items: center;
+    }
+    
   #burguer{
-     background-color: #fff;
+     background-color: #ffff;
      color: black;
      display: block;
      text-align: left;
@@ -80,6 +93,11 @@
      cursor: pointer;
      max-width: 15%;
      
+         
+   }
+
+   .material-icons{
+    justify-items: center;
    }
 #burguer:hover{
     background-color: black;
